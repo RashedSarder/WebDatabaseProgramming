@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+	<style>
+		#Head{
+			height: 200px;
+			width: 100%;
+			background-color: goldenrod;
+			top: 0px;
+			position: absolute;
+			left: 0px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+		#LSide{
+			height: 400px;
+			width: 20%;
+			background-color: lightblue;
+			top: 200px;
+			position: absolute;
+			left: 0px;
+			text-align: center;
+			color: black;
+		}
+		#Container{
+			height: 400px;
+			width: 60%;
+			background-color: darkgoldenrod;
+			top: 200px;
+			position: absolute;
+			left: 20%;
+			text-align: center;
+			color: snow;
+		}
+		#Rside{
+			height: 400px;
+			width: 20%;
+			background-color: greenyellow;
+			top: 200px;
+			position: absolute;
+			left: 80%;
+			text-align: center;
+			color: black;
+		}
+		#Footer{
+			height: 250;
+			width: 100%;
+			background-color:gainsboro;
+			top: 600px;
+			position: absolute;
+			left: 0px;
+			text-align: center;
+			color: green;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="Head">
+		<h1>Welcom to my website</h1><br/><h4>Here you can get any books you want.</h4>
+	</div>
+	<div id="LSide">
+		<h4>Gitanjali</h4><br/>
+		<h4>Chokher Bali</h4><br/>
+		<h4>The Post Office</h4><br/>
+		<h4>Sesher Kobita</h4><br/>
+		<h4>The Wreck</h4>
+	</div>
+	<div id="Container">
+		<h2>Information</h2><br/>
+		<p>
+			As a physical object, a book is a stack of usually rectangular pages (made of papyrus, parchment, vellum, or paper) oriented with one edge tied, sewn, or otherwise fixed together and then bound to the flexible spine of a protective cover of heavier, relatively inflexible material.[1] The technical term for this physical arrangement is codex (in the plural, codices). In the history of hand-held physical supports for extended written compositions or records, the codex replaces its immediate predecessor, the scroll. A single sheet in a codex is a leaf, and each side of a leaf is a page.As an intellectual object, a book is prototypically a composition of such great length that it takes a considerable investment of time to compose and a still considerable, though not so extensive, investment of time to read. This sense of book has a restricted and an unrestricted sense. In the restricted sense, a book is a self-sufficient section or part of a longer composition, a usage that reflects the fact that, in antiquity, long works had to be written on several scrolls, and each scroll had to be identified by the book it contained. So, for instance, each part of Aristotle's Physics is called a book, as of course the Bible encompasses many different books. In the unrestricted sense, a book is the compositional whole of which such sections, whether called books or chapters or parts, are parts.
+		</p>
+	</div>
+	<div id="Rside">
+		<h4>Last Updated</h4><br/>
+		<h4>Recent</h4><br/>
+		<h4>Old Post</h4><br/>
+		<h4>Best Books</h4>
+	</div>
+	<div id="Footer">
+		<p>o. Contact Us</p><br/>
+		<p>o. About Us</p><br/>
+		<p>o. Email: boierdokan@gmail.com</p>
+	</div>
+</body>
+</html>
