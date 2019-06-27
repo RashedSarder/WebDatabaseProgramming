@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<style>
+	#total{
+		background-color: #FFA500;
+		height: 1000px;
+		width:100%;
+		text-align:center;
+		top:90px;
+		left:0px;
+		position:absolute;
+	}
+	#menu{
+			background-color: #2C3147;
+			height: 90px;
+			width:100%;
+			left:0px;
+			top:0px;
+			position:absolute;
+			text-align:center;
+		}
+</style>
+</head>
+<body>
+<div id="menu">
+	<button style="background-color:navy; height: 60px; width: 80px"><a href="index.html" style="color: white; font-size: 110%; text-decoration:none;"><h4>Home</h4></a></button>
+</div>
+
+<div id="total">
+	<h1>Sign Up Here</h1>
+	<center>
+	<table>
+		<form>
+			<tr>
+				<td>Name</td>
+				<td>: <input id="name" type="text" placeholder="Enter your name" maxlength="20" required><br/></td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td>ID</td>
+				<td>: <input id="name" type="number" placeholder="Enter your name" maxlength="20" required></td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td>Pass</td>
+				<td>: <input id="name" type="password" placeholder="********" maxlength="20" required></td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td>Country</td>
+				<td>: 
+					<select>
+						<option>America</option>
+						<option>Bangladesh</option>
+						<option>China</option>
+						<option>Europe</option>
+						<option>France</option>
+						<option>German</option>
+						<option>Honkong</option>
+						<option>Iarland</option>
+					</select>
+				</td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td>Gender</td>
+				<td>:
+					<input id="name" type="radio" checked>Male
+					<input id="name" type="radio">Female
+					<input id="name" type="radio">Other
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="SignUp"></td>
+				<td><input type="submit" value="Login"></td>
+			</tr>
+		</form>
+	</table>
+	</center>
+</div>
+</body>
+</html>
