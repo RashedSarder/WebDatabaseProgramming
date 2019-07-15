@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<script>
+function myFunction() {
+  // Declare variables 
+  var input, filter, table, tr, td0,td1,td2, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td0 = tr[i].getElementsByTagName("td")[0];
+	td1 = tr[i].getElementsByTagName("td")[1];
+    td2 = tr[i].getElementsByTagName("td")[2];
+
+    if (td0||td1||td2) {
+      txtValue0 = td0.textContent;
+	  txtValue1 = td1.textContent;
+      txtValue2 = td2.textContent;
+
+      if (txtValue0.toUpperCase().indexOf(filter) > -1 ||txtValue1.toUpperCase().indexOf(filter) > -1||txtValue2.toUpperCase().indexOf(filter) > -1) 
+	  {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
+<body>
+<input id="myInput" type="text" placeholder="search by anything"  onKeyUp="return myFunction()";>
+<table id="myTable" border="2px" width="100%">
+<tr><th>Id</th><th>Name</th><th>Dept</th></tr>
+<tr><td>123</td><td>ata</td><td>CSE</td></tr>
+<tr><td>123</td><td>jamal</td><td>CSE</td></tr>
+<tr><td>123</td><td>kamal</td><td>EEE</td></tr>
+<tr><td>123</td><td>abul</td><td>BSS</td></tr>
+
+</table>
+
+</body>
+</html>
